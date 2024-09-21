@@ -7,5 +7,19 @@ Content-Type: application/json
     "desiredWeeklyFrequency": 3
 }
 
-###
+### GET pending goals
 GET  http://localhost:3333/pending-goals
+
+
+### Completing a goal
+
+POST http://localhost:3333/goal-completions
+Content-Type: application/json
+
+{
+    "goalsId": "eaz9nun9emye4b6u4me51cg1"
+}
+
+### Listagem de metas
+
+GET http://localhost:3333/summary
