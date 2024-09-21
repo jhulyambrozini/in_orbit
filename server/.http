@@ -1,0 +1,11 @@
+# createGoal
+POST http://localhost:3333/goal
+Content-Type: application/json
+
+{
+    "title": "Comer frutas no cafe da manhã",
+    "desiredWeeklyFrequency": 3
+}
+
+###
+GET  http://localhost:3333/pending-goals

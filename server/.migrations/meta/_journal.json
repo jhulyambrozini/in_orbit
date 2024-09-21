@@ -8,6 +8,13 @@
       "when": 1726447080077,
       "tag": "0000_whole_enchantress",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1726941315054,
+      "tag": "0001_worried_madame_web",
+      "breakpoints": true
     }
   ]
 }
